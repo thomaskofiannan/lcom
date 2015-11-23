@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c6026b96e6fa11a641b51a6ba976f5e",
-    "content-hash": "5bd58fd976f1ee3e9611bc37c006ec46",
+    "hash": "918eb396541855c94f3f2549bbea18b9",
+    "content-hash": "781671ec49eee9bd95de00f810d9c262",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1877,6 +1877,39 @@
             "time": "2015-05-11 14:41:42"
         },
         {
+            "name": "jimbolino/laravel-model-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Jimbolino/laravel-model-builder.git",
+                "reference": "551a00361425735c08c0ad25221d6d292163b75e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Jimbolino/laravel-model-builder/zipball/551a00361425735c08c0ad25221d6d292163b75e",
+                "reference": "551a00361425735c08c0ad25221d6d292163b75e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jimbolino\\Laravel\\ModelBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "builds eloquent models based on the tables and relations found in your mysql database",
+            "keywords": [
+                "builder",
+                "eloquent",
+                "laravel",
+                "models"
+            ],
+            "time": "2015-09-11 01:17:09"
+        },
+        {
             "name": "mockery/mockery",
             "version": "0.9.4",
             "source": {
@@ -2949,7 +2982,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "jimbolino/laravel-model-builder": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

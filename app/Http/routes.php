@@ -11,7 +11,7 @@
 |
 */
 
-
+Route::get('/generate/models', '\\Jimbolino\\Laravel\\ModelBuilder\\ModelGenerator5@start');
 Route::get('/','Home@index');
 
 Route::get('/404', array(
