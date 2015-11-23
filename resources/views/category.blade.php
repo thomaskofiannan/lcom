@@ -27,7 +27,7 @@
                             <ul class="nav nav-pills nav-stacked category-menu">
                                
                                 <li class="active">
-                                    <a href="category.html">Ladies  <span class="badge pull-right">123</span></a>
+                                    <a href="{{ url('/category') }}">Ladies  <span class="badge pull-right">123</span></a>
                                     <ul>
                                         <li><a href="category.html">T-shirts</a>
                                         </li>

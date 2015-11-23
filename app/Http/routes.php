@@ -28,7 +28,7 @@ Route::get('/blog', array(
 ));
 
 
-Route::get('/category', array(
+Route::get('/category/{value}', array(
     'uses'=>'Home@category',
     'as'=>'category'
 ));
@@ -88,6 +88,11 @@ Route::get('/text', array(
 Route::get('/text_right', array(
     'uses'=>'Home@text_right',
     'as'=>'text_right'
+));
+
+Route::get('/register', array(
+    'uses'=>'Home@register',
+    'as'=>'register'
 ));
 
 /*

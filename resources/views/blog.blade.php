@@ -35,16 +35,16 @@
                     </div>
 
                     <div class="post">
-                        <h2><a href="post.html">Fashion now</a></h2>
+                        <h2><a href="#">Fashion now</a></h2>
                         <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a>
                         </p>
                         <hr>
                         <p class="date-comments">
-                            <a href="post.html"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
-                            <a href="post.html"><i class="fa fa-comment-o"></i> 8 Comments</a>
+                            <a href="#"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
+                            <a href="#"><i class="fa fa-comment-o"></i> 8 Comments</a>
                         </p>
                         <div class="image">
-                            <a href="post.html">
+                            <a href="#">
                                 <img src="img/blog2.jpg" class="img-responsive" alt="Example blog post alt">
                             </a>
                         </div>
@@ -56,16 +56,16 @@
 
 
                     <div class="post">
-                        <h2><a href="post.html">Who is who - example blog post</a></h2>
+                        <h2><a href="#">Who is who - example blog post</a></h2>
                         <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a>
                         </p>
                         <hr>
                         <p class="date-comments">
-                            <a href="post.html"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
-                            <a href="post.html"><i class="fa fa-comment-o"></i> 8 Comments</a>
+                            <a href="#"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
+                            <a href="#"><i class="fa fa-comment-o"></i> 8 Comments</a>
                         </p>
                         <div class="image">
-                            <a href="post.html">
+                            <a href="#">
                                 <img src="img/blog.jpg" class="img-responsive" alt="Example blog post alt">
                             </a>
                         </div>
@@ -103,16 +103,16 @@
 
                             <ul class="nav nav-pills nav-stacked">
                                 <li>
-                                    <a href="blog.html">About us</a>
+                                    <a href="{{ url('/blog') }}">About us</a>
                                 </li>
                                 <li class="active">
-                                    <a href="blog.html">Fashion</a>
+                                    <a href="{{ url('/blog') }}">Fashion</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">News and gossip</a>
+                                    <a href="{{ url('/blog') }}">News and gossip</a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Design</a>
+                                    <a href="{{ url('/blog') }}">Design</a>
                                 </li>
                             </ul>
                         </div>

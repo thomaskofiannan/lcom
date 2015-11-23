@@ -26,9 +26,10 @@ class Home extends Controller
         return view('basket');
     }
 
-    public function category()
+    public function category($value)
     {
         //
+        dump( $value);
         return view('category');
     }public function category_full()
 {

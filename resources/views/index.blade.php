@@ -89,22 +89,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">Fur coat with very but very very long name</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -117,22 +117,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">White Blouse Armani</a></h3>
                                     <p class="price"><del>$280</del> $143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -163,22 +163,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -191,12 +191,12 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
@@ -206,7 +206,7 @@
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -224,17 +224,17 @@
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Versace</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">White Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -253,22 +253,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">Fur coat</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -289,22 +289,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">White Blouse Armani</a></h3>
                                     <p class="price"><del>$280</del> $143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -335,22 +335,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="{{ url('/detail') }}">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="{{ url('/detail') }}" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="{{ url('/detail') }}">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -418,26 +418,26 @@
                     <div id="blog-homepage" class="row">
                         <div class="col-sm-6">
                             <div class="post">
-                                <h4><a href="post.html">Fashion now</a></h4>
+                                <h4><a href="{{ url('/blog') }}">Fashion now</a></h4>
                                 <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a>
                                 </p>
                                 <hr>
                                 <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
                                     ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
+                                <p class="read-more"><a href="{{ url('/blog') }}" class="btn btn-primary">Continue reading</a>
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="post">
-                                <h4><a href="post.html">Who is who - example blog post</a></h4>
+                                <h4><a href="{{ url('/blog') }}">Who is who - example blog post</a></h4>
                                 <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a>
                                 </p>
                                 <hr>
                                 <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
                                     ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
+                                <p class="read-more"><a href="{{ url('/blog') }}" class="btn btn-primary">Continue reading</a>
                                 </p>
                             </div>
 
