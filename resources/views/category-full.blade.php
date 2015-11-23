@@ -1,4 +1,4 @@
-@include('master')
+@extends('master')
 @section('content')
 
     <div id="all">
@@ -397,5 +397,6 @@
             <!-- /.container -->
         </div>
         <!-- /#content -->
+
 
 @stop
