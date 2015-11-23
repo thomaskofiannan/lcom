@@ -52,9 +52,9 @@ _________________________________________________________ -->
             <ul class="menu">
                 <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                 </li>
-                <li><a href="register.html">Register</a>
+                <li><a href="{{ url('/register') }}">Register</a>
                 </li>
-                <li><a href="contact.html">Contact</a>
+                <li><a href="{{ url('/contact') }}">Contact</a>
                 </li>
 
             </ul>
@@ -84,7 +84,7 @@ _________________________________________________________ -->
                     </form>
 
                     <p class="text-center text-muted">Not registered yet?</p>
-                    <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                    <p class="text-center text-muted"><a href="{{ url('/register') }}"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                 </div>
             </div>
@@ -102,7 +102,7 @@ _________________________________________________________ -->
     <div class="container">
         <div class="navbar-header">
 
-            <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+            <a class="navbar-brand home" href="{{ url('/') }}" data-animate-hover="bounce">
                 <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                 <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
             </a>
@@ -115,7 +115,7 @@ _________________________________________________________ -->
                     <span class="sr-only">Toggle search</span>
                     <i class="fa fa-search"></i>
                 </button>
-                <a class="btn btn-default navbar-toggle" href="basket.html">
+                <a class="btn btn-default navbar-toggle" href="{{ url('/') }}">
                     <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                 </a>
             </div>
@@ -125,7 +125,7 @@ _________________________________________________________ -->
         <div class="navbar-collapse collapse" id="navigation">
 
             <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="index.html">Home</a>
+                <li class="active"><a href="{{ url('/') }}">Home</a>
                 </li>
 
                 <li class="dropdown yamm-fw">
@@ -137,52 +137,52 @@ _________________________________________________________ -->
                                     <div class="col-sm-3">
                                         <h5>Clothing</h5>
                                         <ul>
-                                            <li><a href="category.html">T-shirts</a>
+                                            <li><a href="{{ url('/category') }}">T-shirts</a>
                                             </li>
-                                            <li><a href="category.html">Shirts</a>
+                                            <li><a href="{{ url('/category') }}">Shirts</a>
                                             </li>
-                                            <li><a href="category.html">Pants</a>
+                                            <li><a href="{{ url('/category') }}">Pants</a>
                                             </li>
-                                            <li><a href="category.html">Accessories</a>
+                                            <li><a href="{{ url('/category') }}">Accessories</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Shoes</h5>
                                         <ul>
-                                            <li><a href="category.html">Trainers</a>
+                                            <li><a href="{{ url('/category') }}">Trainers</a>
                                             </li>
-                                            <li><a href="category.html">Sandals</a>
+                                            <li><a href="{{ url('/category') }}">Sandals</a>
                                             </li>
-                                            <li><a href="category.html">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="category.html">Casual</a>
+                                            <li><a href="{{ url('/category') }}">Casual</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Accessories</h5>
                                         <ul>
-                                            <li><a href="category.html">Trainers</a>
+                                            <li><a href="{{ url('/category') }}">Trainers</a>
                                             </li>
-                                            <li><a href="category.html">Sandals</a>
+                                            <li><a href="{{ url('/category') }}">Sandals</a>
                                             </li>
-                                            <li><a href="category.html">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="category.html">Casual</a>
+                                            <li><a href="{{ url('/category') }}">Casual</a>
                                             </li>
-                                            <li><a href="category.html">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="category.html">Casual</a>
+                                            <li><a href="{{ url('/category') }}">Casual</a>
                                             </li>
                                         </ul>
                                         <h5>Looks and trends</h5>
                                         <ul>
-                                            <li><a href="category.html">Trainers</a>
+                                            <li><a href="{{ url('/category') }}">Trainers</a>
                                             </li>
-                                            <li><a href="category.html">Sandals</a>
+                                            <li><a href="{{ url('/category') }}">Sandals</a>
                                             </li>
-                                            <li><a href="category.html">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -214,64 +214,64 @@ _________________________________________________________ -->
                                     <div class="col-sm-3">
                                         <h5>Shop</h5>
                                         <ul>
-                                            <li><a href="index.html">Homepage</a>
+                                            <li><a href="{{ url('/') }}">Homepage</a>
                                             </li>
-                                            <li><a href="category.html">Category - sidebar left</a>
+                                            <li><a href="{{ url('/category') }}">Category - sidebar left</a>
                                             </li>
-                                            <li><a href="category-right.html">Category - sidebar right</a>
+                                            <li><a href="{{ url('/category_right') }}">Category - sidebar right</a>
                                             </li>
-                                            <li><a href="category-full.html">Category - full width</a>
+                                            <li><a href="{{ url('/category_full') }}">Category - full width</a>
                                             </li>
-                                            <li><a href="detail.html">Product detail</a>
+                                            <li><a href="{{ url('/detail') }}">Product detail</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>User</h5>
                                         <ul>
-                                            <li><a href="register.html">Register / login</a>
+                                            <li><a href="{{ url('/register') }}">Register / login</a>
                                             </li>
-                                            <li><a href="customer-orders.html">Orders history</a>
+                                            <li><a href="{{ url('/order') }}">Orders history</a>
                                             </li>
-                                            <li><a href="customer-order.html">Order history detail</a>
+                                            <li><a href="{{ url('/order') }}">Order history detail</a>
                                             </li>
-                                            <li><a href="customer-wishlist.html">Wishlist</a>
+                                            <li><a href="{{ url('/wishlist') }}">Wishlist</a>
                                             </li>
-                                            <li><a href="customer-account.html">Customer account / change password</a>
+                                            <li><a href="{{ url('/customer') }}">Customer account / change password</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Order process</h5>
                                         <ul>
-                                            <li><a href="basket.html">Shopping cart</a>
+                                            <li><a href="{{ url('/basket') }}">Shopping cart</a>
                                             </li>
-                                            <li><a href="checkout1.html">Checkout - step 1</a>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 1</a>
                                             </li>
-                                            <li><a href="checkout2.html">Checkout - step 2</a>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 2</a>
                                             </li>
-                                            <li><a href="checkout3.html">Checkout - step 3</a>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 3</a>
                                             </li>
-                                            <li><a href="checkout4.html">Checkout - step 4</a>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 4</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Pages and blog</h5>
                                         <ul>
-                                            <li><a href="blog.html">Blog listing</a>
+                                            <li><a href="{{ url('/blog') }}">Blog listing</a>
                                             </li>
-                                            <li><a href="post.html">Blog Post</a>
+                                            <li><a href="{{ url('/blog') }}">Blog Post</a>
                                             </li>
-                                            <li><a href="faq.html">FAQ</a>
+                                            <li><a href="{{ url('/faq') }}">FAQ</a>
                                             </li>
-                                            <li><a href="text.html">Text page</a>
+                                            <li><a href="{{ url('/text') }}">Text page</a>
                                             </li>
-                                            <li><a href="text-right.html">Text page - right sidebar</a>
+                                            <li><a href="{{ url('/text') }}">Text page - right sidebar</a>
                                             </li>
-                                            <li><a href="404.html">404 page</a>
+                                            <li><a href="{{ url('/404') }}">404 page</a>
                                             </li>
-                                            <li><a href="contact.html">Contact</a>
+                                            <li><a href="{{ url('/contact') }}">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -289,7 +289,7 @@ _________________________________________________________ -->
         <div class="navbar-buttons">
 
             <div class="navbar-collapse collapse right" id="basket-overview">
-                <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                <a href="{{ url('/basket') }}" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
             </div>
             <!--/.nav-collapse -->
 
