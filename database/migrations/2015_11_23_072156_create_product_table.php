@@ -18,11 +18,10 @@ class CreateProductTable extends Migration
             $table->string('product_name');
             $table->double('price',15,3);
             $table->text('description');
-            $table->integer('size_id',false,true)->length(11);
+            $table->integer('size_id',false,true)->length(10)->unsigned();
             $table->foreign('size_id')->references('id')->on('size');
-            $table->integer('cat_id',false,true)->length(11);
+            $table->integer('cat_id',false,true)->length(10)->unsigned();
             $table->foreign('cat_id')->references('id')->on('category');
-
             $table->timestamps();
         });
     }

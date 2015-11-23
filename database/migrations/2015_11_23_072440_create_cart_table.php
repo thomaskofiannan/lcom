@@ -14,9 +14,9 @@ class CreateCartTable extends Migration
     {
         Schema::create('cart', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('order_id',false,true)->length(11);
+            $table->integer('order_id',false,true)->length(10)->unsigned();
             $table->foreign('order_id')->references('id')->on('order');
-            $table->double('total');
+            $table->double('total',20,5);
             $table->timestamps();
         });
     }
