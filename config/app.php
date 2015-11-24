@@ -145,6 +145,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Crud generator for admin pages
+         */
+        Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
+        // Use the line bellow for "laravelcollective/html" package otherwise remove it.
+        Collective\Html\HtmlServiceProvider::class,
     ],
 
     /*
@@ -193,7 +199,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+        //admin crud generator
+        'Form'      => Collective\Html\FormFacade::class,
+        'HTML'      => Collective\Html\HtmlFacade::class,
     ],
 
 ];

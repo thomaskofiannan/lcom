@@ -6,8 +6,7 @@
 
                 <div class="col-md-12">
                     <ul class="breadcrumb">
-                        <li><a href="#">Home</a>
-                        </li>
+                        <li><a href="{{ url('/') }}
                         <li>Contact</li>
                     </ul>
 
@@ -25,13 +24,13 @@
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
                                 <li>
-                                    <a href="text.html">Text page</a>
+                                    <a href="{{ url('/text') }}">Text page</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact page</a>
+                                    <a href="{{ url('/contact') }}">Contact page</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html">FAQ</a>
+                                    <a href="{{ url('/faq') }}">FAQ</a>
                                 </li>
 
                             </ul>
@@ -83,7 +82,7 @@
                                 <h3><i class="fa fa-envelope"></i> Electronic support</h3>
                                 <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
                                 <ul>
-                                    <li><strong><a href="mailto:">info@fakeemail.com</a></strong>
+                                    <li><strong><a href="mailto:">info@ladies.com</a></strong>
                                     </li>
                                     <li><strong><a href="#">Ticketio</a></strong> - our ticketing support platform</li>
                                 </ul>
@@ -214,13 +213,13 @@
 
                         <h4>Where to find us</h4>
 
-                        <p><strong>Obaju Ltd.</strong>
-                            <br>13/25 New Avenue
-                            <br>New Heaven
-                            <br>45Y 73J
-                            <br>England
+                        <p><strong>Ladies Ltd.</strong>
+                            <br>700 Park Avenue
+                            <br>Norfolk
+                            <br>23504
+                            <br>Virginia
                             <br>
-                            <strong>Great Britain</strong>
+                            <strong>USA</strong>
                         </p>
 
                         <a href="contact.html">Go to contact page</a>

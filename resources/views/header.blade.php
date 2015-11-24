@@ -137,52 +137,52 @@ _________________________________________________________ -->
                                     <div class="col-sm-3">
                                         <h5>Clothing</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category',array('value'=>'T-shirts')) }}">T-shirts</a>
+                                            <li><a href="{{ url('/category') }}">T-shirts</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Shirts')) }}">Shirts</a>
+                                            <li><a href="{{ url('/category') }}">Shirts</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Pants')) }}">Pants</a>
+                                            <li><a href="{{ url('/category') }}">Pants</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Accessories')) }}">Accessories</a>
+                                            <li><a href="{{ url('/category') }}">Accessories</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Shoes</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category',array('value'=>'Trainers')) }}">Trainers</a>
+                                            <li><a href="{{ url('/category') }}">Trainers</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Sandals')) }}">Sandals</a>
+                                            <li><a href="{{ url('/category') }}">Sandals</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Casual')) }}">Casual</a>
+                                            <li><a href="{{ url('/category') }}">Casual</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Accessories</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category',array('value'=>'Trainers')) }}">Trainers</a>
+                                            <li><a href="{{ url('/category') }}">Trainers</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Sandals')) }}">Sandals</a>
+                                            <li><a href="{{ url('/category') }}">Sandals</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Casual')) }}">Casual</a>
+                                            <li><a href="{{ url('/category') }}">Casual</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Casual')) }}">Casual</a>
+                                            <li><a href="{{ url('/category') }}">Casual</a>
                                             </li>
                                         </ul>
                                         <h5>Looks and trends</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category',array('value'=>'Trainers')) }}">Trainers</a>
+                                            <li><a href="{{ url('/category') }}">Trainers</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Sandals')) }}">Sandals</a>
+                                            <li><a href="{{ url('/category') }}">Sandals</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -216,7 +216,7 @@ _________________________________________________________ -->
                                         <ul>
                                             <li><a href="{{ url('/') }}">Homepage</a>
                                             </li>
-                                            <li><a href="{{ url('/category',array('value'=>'Category - sidebar left')) }}">Category - sidebar left</a>
+                                            <li><a href="{{ url('/category') }}">Category - sidebar left</a>
                                             </li>
                                             <li><a href="{{ url('/category_right') }}">Category - sidebar right</a>
                                             </li>

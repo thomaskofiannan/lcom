@@ -28,7 +28,7 @@ Route::get('/blog', array(
 ));
 
 
-Route::get('/category/{value}', array(
+Route::get('/category/', array(
     'uses'=>'Home@category',
     'as'=>'category'
 ));
@@ -42,10 +42,30 @@ Route::get('/category_right', array(
     'as'=>'category_right'
 ));
 
+//
+//Route::get('/checkout', array(
+//    'uses'=>'Home@checkout',
+//    'as'=>'checkout'
+//));
 
-Route::get('/checkout', array(
-    'uses'=>'Home@checkout',
-    'as'=>'checkout'
+Route::get('/checkout1', array(
+    'uses'=>'Home@checkout1',
+    'as'=>'checkout1'
+));
+
+Route::get('/checkout2', array(
+    'uses'=>'Home@checkout2',
+    'as'=>'checkout2'
+));
+
+Route::get('/checkout3', array(
+    'uses'=>'Home@checkout3',
+    'as'=>'checkout3'
+));
+
+Route::get('/checkout4', array(
+    'uses'=>'Home@checkout4',
+    'as'=>'checkout4'
 ));
 
 Route::get('/contact', array(
