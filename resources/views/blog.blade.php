@@ -30,13 +30,13 @@
                     <div class="box">
 
                         <h1>Blog category name</h1>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                        <p>Our blog contains posts on different subjects.</p>
 
                     </div>
 
                     <div class="post">
                         <h2><a href="#">Fashion now</a></h2>
-                        <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a>
+                        <p class="author-category">By <a href="#"></a>  <a href="">Fashion and style</a>
                         </p>
                         <hr>
                         <p class="date-comments">
@@ -48,16 +48,15 @@
                                 <img src="img/blog2.jpg" class="img-responsive" alt="Example blog post alt">
                             </a>
                         </div>
-                        <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
-                            mi vitae est. Mauris placerat eleifend leo.</p>
-                        <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
+                        <p class="intro">New york is one of the place where fashion keeps updating.</p>
+                        <p class="read-more"><a href="/blog" class="btn btn-primary">Continue reading</a>
                         </p>
                     </div>
 
 
                     <div class="post">
                         <h2><a href="#">Who is who - example blog post</a></h2>
-                        <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a>
+                        <p class="author-category">By <a href="#"></a>  <a href="">About Minimal</a>
                         </p>
                         <hr>
                         <p class="date-comments">
@@ -69,9 +68,8 @@
                                 <img src="img/blog.jpg" class="img-responsive" alt="Example blog post alt">
                             </a>
                         </div>
-                        <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
-                            mi vitae est. Mauris placerat eleifend leo.</p>
-                        <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
+                        <p class="intro"></p>
+                        <p class="read-more"><a href="/blog" class="btn btn-primary">Continue reading</a>
                         </p>
                     </div>
 

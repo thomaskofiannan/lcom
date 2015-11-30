@@ -25,7 +25,7 @@
                 <ul>
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Regiter</a>
+                    <li><a href="register.html">Register</a>
                     </li>
                 </ul>
 
