@@ -16,14 +16,14 @@
                 <div class="col-md-9" id="checkout">
 
                     <div class="box">
-                        <form method="post" action="{{ url('/checkout4') }}">
+                        <form method="post" action="checkout4.html">
                             <h1>Checkout - Order review</h1>
                             <ul class="nav nav-pills nav-justified">
-                                <li><a href="{{ url('/checkout1') }}"><i class="fa fa-map-marker"></i><br>Address</a>
+                                <li><a href="checkout1.html"><i class="fa fa-map-marker"></i><br>Address</a>
                                 </li>
-                                <li><a href="{{ url('/checkout2') }}"><i class="fa fa-truck"></i><br>Delivery Method</a>
+                                <li><a href="checkout2.html"><i class="fa fa-truck"></i><br>Delivery Method</a>
                                 </li>
-                                <li><a href="{{ url('/checkout3') }}"><i class="fa fa-money"></i><br>Payment Method</a>
+                                <li><a href="checkout3.html"><i class="fa fa-money"></i><br>Payment Method</a>
                                 </li>
                                 <li class="active"><a href="#"><i class="fa fa-eye"></i><br>Order Review</a>
                                 </li>
@@ -84,7 +84,7 @@
 
                             <div class="box-footer">
                                 <div class="pull-left">
-                                    <a href="{{ url('/checkout3') }}" class="btn btn-default"><i class="fa fa-chevron-left"></i>Back to Payment method</a>
+                                    <a href="checkout3.html" class="btn btn-default"><i class="fa fa-chevron-left"></i>Back to Payment method</a>
                                 </div>
                                 <div class="pull-right">
                                     <button type="submit" class="btn btn-primary">Place an order<i class="fa fa-chevron-right"></i>

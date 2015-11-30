@@ -40,25 +40,10 @@ class Home extends Controller
         //
         return view('category-right');
     }
-    public function checkout1()
+    public function checkout()
     {
         //
         return view('checkout1');
-    }
-    public function checkout2()
-    {
-        //
-        return view('checkout2');
-    }
-    public function checkout3()
-    {
-        //
-        return view('checkout3');
-    }
-    public function checkout4()
-    {
-        //
-        return view('checkout4');
     }
     public function contact()
     {

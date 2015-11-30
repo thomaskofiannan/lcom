@@ -12,7 +12,7 @@
     <meta name="keywords" content="">
 
     <title>
-        Obaju : e-commerce template
+        Divas
     </title>
 
     <meta name="keywords" content="">
@@ -103,8 +103,8 @@ _________________________________________________________ -->
         <div class="navbar-header">
 
             <a class="navbar-brand home" href="{{ url('/') }}" data-animate-hover="bounce">
-                <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
-                <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
+                <img src="img/diva1.png" alt="Divas logo" class="hidden-xs">
+                <img src="img/diva1.png" alt="Divas logo" class="visible-xs"><span class="sr-only">Divas - go to homepage</span>
             </a>
             <div class="navbar-buttons">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -137,52 +137,52 @@ _________________________________________________________ -->
                                     <div class="col-sm-3">
                                         <h5>Clothing</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category') }}">T-shirts</a>
+                                            <li><a href="{{ url('/category',array('value'=>'T-shirts')) }}">T-shirts</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Shirts</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Shirts')) }}">Shirts</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Pants</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Pants')) }}">Pants</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Accessories</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Accessories')) }}">Accessories</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Shoes</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category') }}">Trainers</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Trainers')) }}">Trainers</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Sandals</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Sandals')) }}">Sandals</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Casual</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Casual')) }}">Casual</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <h5>Accessories</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category') }}">Trainers</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Trainers')) }}">Trainers</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Sandals</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Sandals')) }}">Sandals</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Casual</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Casual')) }}">Casual</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Casual</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Casual')) }}">Casual</a>
                                             </li>
                                         </ul>
                                         <h5>Looks and trends</h5>
                                         <ul>
-                                            <li><a href="{{ url('/category') }}">Trainers</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Trainers')) }}">Trainers</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Sandals</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Sandals')) }}">Sandals</a>
                                             </li>
-                                            <li><a href="{{ url('/category') }}">Hiking shoes</a>
+                                            <li><a href="{{ url('/category',array('value'=>'Hiking shoes')) }}">Hiking shoes</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -205,82 +205,83 @@ _________________________________________________________ -->
                     </ul>
                 </li>
 
-                {{--<li class="dropdown yamm-fw">--}}
-                    {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Template <b class="caret"></b></a>--}}
-                    {{--<ul class="dropdown-menu">--}}
-                        {{--<li>--}}
-                            {{--<div class="yamm-content">--}}
-                                {{--<div class="row">--}}
-                                    {{--<div class="col-sm-3">--}}
-                                        {{--<h5>Shop</h5>--}}
-                                        {{--<ul>--}}
-                                            {{--<li><a href="{{ url('/') }}">Homepage</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/category') }}">Category - sidebar left</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/category_right') }}">Category - sidebar right</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/category_full') }}">Category - full width</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/detail') }}">Product detail</a>--}}
-                                            {{--</li>--}}
-                                        {{--</ul>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="col-sm-3">--}}
-                                        {{--<h5>User</h5>--}}
-                                        {{--<ul>--}}
-                                            {{--<li><a href="{{ url('/register') }}">Register / login</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/order') }}">Orders history</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/order') }}">Order history detail</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/wishlist') }}">Wishlist</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/customer') }}">Customer account / change password</a>--}}
-                                            {{--</li>--}}
-                                        {{--</ul>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="col-sm-3">--}}
-                                        {{--<h5>Order process</h5>--}}
-                                        {{--<ul>--}}
-                                            {{--<li><a href="{{ url('/basket') }}">Shopping cart</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/checkout') }}">Checkout - step 1</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/checkout') }}">Checkout - step 2</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/checkout') }}">Checkout - step 3</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/checkout') }}">Checkout - step 4</a>--}}
-                                            {{--</li>--}}
-                                        {{--</ul>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="col-sm-3">--}}
-                                        {{--<h5>Pages and blog</h5>--}}
-                                        {{--<ul>--}}
-                                            {{--<li><a href="{{ url('/blog') }}">Blog listing</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/blog') }}">Blog Post</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/faq') }}">FAQ</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/text') }}">Text page</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/text') }}">Text page - right sidebar</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/404') }}">404 page</a>--}}
-                                            {{--</li>--}}
-                                            {{--<li><a href="{{ url('/contact') }}">Contact</a>--}}
-                                            {{--</li>--}}
-                                        {{--</ul>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<!-- /.yamm-content -->--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
-                {{--</li>--}}
+               <!-- <li class="dropdown yamm-fw">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Template <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5>Shop</h5>
+                                        <ul>
+                                            <li><a href="{{ url('/') }}">Homepage</a>
+                                            </li>
+                                            <li><a href="{{ url('/category',array('value'=>'Category - sidebar left')) }}">Category - sidebar left</a>
+                                            </li>
+                                            <li><a href="{{ url('/category_right') }}">Category - sidebar right</a>
+                                            </li>
+                                            <li><a href="{{ url('/category_full') }}">Category - full width</a>
+                                            </li>
+                                            <li><a href="{{ url('/detail') }}">Product detail</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h5>User</h5>
+                                        <ul>
+                                            <li><a href="{{ url('/register') }}">Register / login</a>
+                                            </li>
+                                            <li><a href="{{ url('/order') }}">Orders history</a>
+                                            </li>
+                                            <li><a href="{{ url('/order') }}">Order history detail</a>
+                                            </li>
+                                            <li><a href="{{ url('/wishlist') }}">Wishlist</a>
+                                            </li>
+                                            <li><a href="{{ url('/customer') }}">Customer account / change password</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h5>Order process</h5>
+                                        <ul>
+                                            <li><a href="{{ url('/basket') }}">Shopping cart</a>
+                                            </li>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 1</a>
+                                            </li>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 2</a>
+                                            </li>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 3</a>
+                                            </li>
+                                            <li><a href="{{ url('/checkout') }}">Checkout - step 4</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h5>Pages and blog</h5>
+                                        <ul>
+                                            <li><a href="{{ url('/blog') }}">Blog listing</a>
+                                            </li>
+                                            <li><a href="{{ url('/blog') }}">Blog Post</a>
+                                            </li>
+                                            <li><a href="{{ url('/faq') }}">FAQ</a>
+                                            </li>
+                                            <li><a href="{{ url('/text') }}">Text page</a>
+                                            </li>
+                                            <li><a href="{{ url('/text') }}">Text page - right sidebar</a>
+                                            </li>
+                                            <li><a href="{{ url('/404') }}">404 page</a>
+                                            </li>
+                                            <li><a href="{{ url('/contact') }}">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.yamm-content -->
+                        </li>
+
+                    </ul>
+                </li>
             </ul>
 
         </div>

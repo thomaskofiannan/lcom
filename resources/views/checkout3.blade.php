@@ -16,16 +16,16 @@
                 <div class="col-md-9" id="checkout">
 
                     <div class="box">
-                        <form method="post" action="{{ url('/checkout4') }}">
+                        <form method="post" action="checkout4.html">
                             <h1>Checkout - Payment method</h1>
                             <ul class="nav nav-pills nav-justified">
-                                <li><a href="{{ url('/checkout1') }}"><i class="fa fa-map-marker"></i><br>Address</a>
+                                <li><a href="checkout1.html"><i class="fa fa-map-marker"></i><br>Address</a>
                                 </li>
-                                <li><a href="{{ url('/checkout2') }}"><i class="fa fa-truck"></i><br>Delivery Method</a>
+                                <li><a href="checkout2.html"><i class="fa fa-truck"></i><br>Delivery Method</a>
                                 </li>
                                 <li class="active"><a href="#"><i class="fa fa-money"></i><br>Payment Method</a>
                                 </li>
-                                <li class="disabled"><a href="{{ url('/checkout4') }}"><i class="fa fa-eye"></i><br>Order Review</a>
+                                <li class="disabled"><a href="checkout4.html"><i class="fa fa-eye"></i><br>Order Review</a>
                                 </li>
                             </ul>
 

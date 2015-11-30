@@ -16,7 +16,7 @@
                 <div class="col-md-9" id="checkout">
 
                     <div class="box">
-                        <form method="post" action="{{ url('/checkout3') }}">
+                        <form method="post" action="checkout3.html">
                             <h1>Checkout - Delivery method</h1>
                             <ul class="nav nav-pills nav-justified">
                                 <li><a href="checkout1.html"><i class="fa fa-map-marker"></i><br>Address</a>

@@ -61,13 +61,10 @@
 
                 <h4>Where to find us</h4>
 
-                <p><strong>Obaju Ltd.</strong>
-                    <br>13/25 New Avenue
-                    <br>New Heaven
-                    <br>45Y 73J
-                    <br>England
+                <p><strong>Diva Ltd.</strong>
+                    <br>Norfolk
                     <br>
-                    <strong>Great Britain</strong>
+                    <strong>USA</strong>
                 </p>
 
                 <a href="contact.html">Go to contact page</a>
@@ -104,13 +101,13 @@
 
                 <h4>Stay in touch</h4>
 
-                <p class="social">
+             <!--   <p class="social">
                     <a href="#" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="twitter external" data-animate-hover="shake"><i class="fa fa-twitter"></i></a>
                     <a href="#" class="instagram external" data-animate-hover="shake"><i class="fa fa-instagram"></i></a>
                     <a href="#" class="gplus external" data-animate-hover="shake"><i class="fa fa-google-plus"></i></a>
                     <a href="#" class="email external" data-animate-hover="shake"><i class="fa fa-envelope"></i></a>
-                </p>
+                </p> -->
 
 
             </div>
@@ -134,7 +131,7 @@ _________________________________________________________ -->
 <div id="copyright">
     <div class="container">
         <div class="col-md-6">
-            <p class="pull-left">© 2015 Your name goes here.</p>
+            <p class="pull-left">© 2015 Norfolk State University.</p>
 
         </div>
         <div class="col-md-6">

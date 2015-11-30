@@ -6,7 +6,8 @@
 
                 <div class="col-md-12">
                     <ul class="breadcrumb">
-                        <li><a href="{{ url('/') }}
+                        <li><a href="#">Home</a>
+                        </li>
                         <li>Contact</li>
                     </ul>
 
@@ -24,13 +25,13 @@
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
                                 <li>
-                                    <a href="{{ url('/text') }}">Text page</a>
+                                    <a href="text.html">Text page</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/contact') }}">Contact page</a>
+                                    <a href="contact.html">Contact page</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/faq') }}">FAQ</a>
+                                    <a href="faq.html">FAQ</a>
                                 </li>
 
                             </ul>
@@ -62,19 +63,18 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-map-marker"></i> Address</h3>
-                                <p>13/25 New Avenue
-                                    <br>New Heaven
-                                    <br>45Y 73J
-                                    <br>England
+                                <p>xyz Avenue
+                                    <br> Apt abc
+                                    <br>Norfolk
                                     <br>
-                                    <strong>Great Britain</strong>
+                                    <strong>USA</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
                             <div class="col-sm-4">
                                 <h3><i class="fa fa-phone"></i> Call center</h3>
                                 <p class="text-muted">This number is toll free if calling from Great Britain otherwise we advise you to use the electronic form of communication.</p>
-                                <p><strong>+33 555 444 333</strong>
+                                <p><strong>+11 22 333 4444</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
@@ -82,7 +82,7 @@
                                 <h3><i class="fa fa-envelope"></i> Electronic support</h3>
                                 <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
                                 <ul>
-                                    <li><strong><a href="mailto:">info@ladies.com</a></strong>
+                                    <li><strong><a href="mailto:">info@fakeemail.com</a></strong>
                                     </li>
                                     <li><strong><a href="#">Ticketio</a></strong> - our ticketing support platform</li>
                                 </ul>
@@ -213,11 +213,10 @@
 
                         <h4>Where to find us</h4>
 
-                        <p><strong>Ladies Ltd.</strong>
-                            <br>700 Park Avenue
+                        <p><strong>Diva Ltd.</strong>
+                            <br>xyz Avenue
+                            <br>Apt abc
                             <br>Norfolk
-                            <br>23504
-                            <br>Virginia
                             <br>
                             <strong>USA</strong>
                         </p>
@@ -286,7 +285,7 @@
         <div id="copyright">
             <div class="container">
                 <div class="col-md-6">
-                    <p class="pull-left">© 2015 Your name goes here.</p>
+                    <p class="pull-left">© 2015 Norfolk State University.</p>
 
                 </div>
                 <div class="col-md-6">
