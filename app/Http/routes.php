@@ -28,7 +28,7 @@ Route::get('/blog', array(
 ));
 
 
-Route::get('/category/{value}', array(
+Route::get('/category/', array(
     'uses'=>'Home@category',
     'as'=>'category'
 ));

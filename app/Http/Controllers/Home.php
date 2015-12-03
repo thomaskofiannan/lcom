@@ -26,7 +26,7 @@ class Home extends Controller
         return view('basket');
     }
 
-    public function category($value=null)
+    public function category()
     {
        
         return view('category');
