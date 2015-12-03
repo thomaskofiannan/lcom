@@ -32,15 +32,15 @@
                             <ul class="nav nav-pills nav-stacked category-menu">
      
                                 <li class="active">
-                                    <a href="category.html">Ladies  <span class="badge pull-right">123</span></a>
+                                    <a href="{{ url('/category') }}">Ladies  <span class="badge pull-right">123</span></a>
                                     <ul>
-                                        <li><a href="category.html">T-shirts</a>
+                                        <li><a href="{{ url('/category') }}">T-shirts</a>
                                         </li>
-                                        <li><a href="category.html">Skirts</a>
+                                        <li><a href="{{ url('/category') }}">Skirts</a>
                                         </li>
-                                        <li><a href="category.html">Pants</a>
+                                        <li><a href="{{ url('/category') }}">Pants</a>
                                         </li>
-                                        <li><a href="category.html">Accessories</a>
+                                        <li><a href="{{ url('/category') }}">Accessories</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -171,8 +171,8 @@
                                 <p class="price">$124.00</p>
 
                                 <p class="text-center buttons">
-                                    <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a> 
-                                    <a href="basket.html" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
+                                    <a href="{{ url('/basket') }}" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a> 
+                                    <a href="{{ url('/basket') }}" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
                                 </p>
 
 

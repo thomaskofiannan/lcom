@@ -40,7 +40,7 @@ class Home extends Controller
         //
         return view('category-right');
     }
-    public function checkout()
+    public function checkout1()
     {
         //
         return view('checkout1');

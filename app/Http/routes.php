@@ -43,9 +43,9 @@ Route::get('/category_right', array(
 ));
 
 
-Route::get('/checkout', array(
-    'uses'=>'Home@checkout',
-    'as'=>'checkout'
+Route::get('/checkout1', array(
+    'uses'=>'Home@checkout1',
+    'as'=>'checkout1'
 ));
 
 Route::get('/contact', array(
